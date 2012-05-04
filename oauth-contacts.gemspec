@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'oauth2'
   s.add_dependency "rails_config"
-  s.add_dependency 'multi_json', '~> 1.0.3'
+  s.add_dependency 'multi_json', '> 1.0.3'
   s.add_development_dependency 'rspec', '~> 2.7'
   # s.add_development_dependency 'webmock'
 end
