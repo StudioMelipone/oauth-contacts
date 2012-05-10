@@ -61,6 +61,8 @@ module Oauth
           emails, nickname = [], nil
           nickname = contact['title']['$t']
 
+          next unless contact['gd$email']
+
           contact['gd$email'].each do |email|
             emails << email['address']
           end
